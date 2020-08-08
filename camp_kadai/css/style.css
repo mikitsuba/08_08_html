@@ -1,0 +1,36 @@
+.box1 {
+    width: 945px;
+    height: 370px;
+    /* 問題1 */
+    /* background-image: url(../img/01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+   
+   /* 短いバージョン。background-imageでないことに注意
+    background: url(../img/01.jpg) no-repeat center center;
+    background-size: cover; */
+
+    /* 幅を決めた場合には、marginの左右をautoにしないと真ん中に来ない */
+    /* margin: 0 auto; */
+
+    /* 問題2 */
+    background: url(../img/02.jpg) no-repeat center center;
+    margin: 0 auto;
+}
+
+.box1_title {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.box1_text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+}
